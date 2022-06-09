@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: DarkSlateBlue ;
+}
+
+.form{
+	display: flex;
+	width: 450px;
+	height: 350px;
+	background-color: blue ;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+	box-shadow: 0 0 20px black;
+}
+
+.conteudo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 200px;
+
+}
+
+#email{
+	margin: 10px;
+	width: 210px;
+	height: 20px;
+	border-radius: 5px;
+}
+
+#senha{
+	width: 210px;
+	height: 20px;
+	border-radius: 5px;
+}
+
+label{
+	font-family: arial , helvetica , sans-serif ;
+	font-size: 20px;
+	color: DarkMagenta ;
+}
+
+.botao{
+	margin: 30px;
+	width: 100px;
+	height: 25px;
+	background-color: PaleVioletRed ;
+	border: none;  
+	border-radius: 10px;
+	color: white;
+	box-shadow: 0 0 5px black;
+}
+
+button.hover{
+	background-color: black;
+	color: white;
+}
+
+h2{
+	color: black;
+}
